@@ -1,0 +1,23 @@
+.user-card {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+
+.user-card > * {
+  margin-bottom: 10px;
+}
+
+.user-card-buttons {
+  margin-left: auto;
+}
+
+.user-card-buttons-clear {
+  cursor: pointer;
+  font-weight: 500;
+  color: red;
+  margin-right: 15px;
+}

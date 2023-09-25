@@ -1,0 +1,13 @@
+.app-container {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  min-width: 1100px;
+}
+
+.placeholder {
+  width: 60%;
+  padding: 20px 30px;
+}

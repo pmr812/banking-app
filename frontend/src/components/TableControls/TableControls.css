@@ -1,0 +1,16 @@
+.table-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-controls-item {
+    margin: 0 10px 0 5px;
+}
+
+.table-controls-item > select {
+    margin-left: 10px;
+}
+
+.table-controls-pagination {
+    display: flex;
+}

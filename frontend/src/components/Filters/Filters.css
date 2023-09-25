@@ -1,0 +1,10 @@
+.filters {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters-item {
+    display: flex;
+    flex-direction: column;
+}

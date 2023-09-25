@@ -1,0 +1,42 @@
+.transactions-table-header {
+    margin: 0 30px 5px 5px;
+}
+
+.transactions-table-header,
+.transactions-table-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.transactions-table-row {
+    background-color: ghostwhite;
+    padding: 0 10px;
+}
+
+.transactions-table-row:nth-child(2n) {
+    background-color: rgba(248, 248, 250, 0.5);
+}
+
+.transactions-table-header > *,
+.transactions-table-row > * {
+    flex: 5 5 0;
+}
+
+.transactions-table-header > *:first-child,
+.transactions-table-header > *:last-child,
+.transactions-table-row > *:first-child,
+.transactions-table-row > *:last-child {
+    flex: 1 1 50px;
+}
+
+.transactions-table-body-container {
+    max-height: calc(100vh - 420px);
+    overflow-y: auto;
+    margin-right: 10px;
+}
+
+.transactions-table-no-data {
+    background-color: ghostwhite;
+    padding: 20px 0;
+    text-align: center;
+}

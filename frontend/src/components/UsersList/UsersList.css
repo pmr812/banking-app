@@ -1,0 +1,12 @@
+.users-list {
+  background-color: lightblue;
+  padding: 20px 30px;
+  border-radius: 20px;
+  height: fit-content;
+  margin-right: 50px;
+}
+
+.users-list-item {
+  cursor: pointer;
+  padding: 5px;
+}
